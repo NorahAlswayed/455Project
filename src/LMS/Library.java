@@ -126,7 +126,7 @@ public class Library {
         persons.add(b);
     }
 
-    
+    //TEST
     public void addLoan(Loan l)
     {
         loans.add(l);
@@ -385,6 +385,7 @@ public class Library {
 
      
     //Computes total fine for all loans of a borrower
+     //TEST
     public double computeFine2(Borrower borrower)
     {
         System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------------------------------");            

@@ -17,6 +17,7 @@ public class Book {
                                         //when a book is created
     
  // Hi 
+    // welcome from nori
     public Book(int id,String t, String s, String a, boolean issued)    // Parameterise cons.
     {
         currentIdNumber++;
@@ -164,7 +165,8 @@ public class Book {
     
 
 
-   // Request for Holding a Book
+   // TESTبورور؟
+    
     public void makeHoldRequest(Borrower borrower)
     {
         boolean makeRequest = true;
@@ -208,7 +210,7 @@ public class Book {
 
     
         
-    // Issuing a Book
+    // TEST
     public void issueBook(Borrower borrower, Staff staff)
     {        
         //First deleting the expired hold requests
@@ -302,7 +304,7 @@ public class Book {
     }
         
         
-    // Returning a Book
+    // TESTTTT
     public void returnBook(Borrower borrower, Loan l, Staff staff)
     {
         l.getBook().setIssuedStatus(false);        

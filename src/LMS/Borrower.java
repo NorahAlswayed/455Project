@@ -131,11 +131,12 @@ public class Borrower extends Person
     }
 
     /*-- Adding and Removing from Borrowed Books---*/
+    //TEST
     public void addBorrowedBook(Loan iBook)
     {
         borrowedBooks.add(iBook);
     }
-    
+    //TEST
     public void removeBorrowedBook(Loan iBook)
     {
         borrowedBooks.remove(iBook);
@@ -144,11 +145,12 @@ public class Borrower extends Person
     /*-------------------------------------------*/
     
     /*-- Adding and Removing from On Hold Books---*/
+    //TEST
     public void addHoldRequest(HoldRequest hr)
     {
         onHoldBooks.add(hr);
     }
-    
+    //TEST
     public void removeHoldRequest(HoldRequest hr)
     {
         onHoldBooks.remove(hr);
