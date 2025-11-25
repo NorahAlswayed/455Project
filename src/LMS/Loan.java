@@ -155,15 +155,4 @@ public class Loan
     }
 
 
-
-
-
-
-
-
-
-
-
-
-    
 }   // Loan class Closed
